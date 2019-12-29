@@ -48,9 +48,10 @@ namespace PriceCalculatorService.Clients
                 }
             }
 
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
 
-                throw ex;
+                // throw ex;
             }
 
             return responseList;

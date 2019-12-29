@@ -55,9 +55,9 @@ namespace PriceCalculatorService.Services
             catch (Exception ex)
             {
 
-                throw ex;
-            } 
-            
+                // throw ex;
+            }
+
             return result;
 
         }

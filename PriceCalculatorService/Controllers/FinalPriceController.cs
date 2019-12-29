@@ -39,7 +39,6 @@ namespace PriceCalculatorService.Controllers
             catch (Exception ex)
             {
                 _logger.LogInformation("Error:" + ex.Message);
-
                 throw ex;
             }   
 
