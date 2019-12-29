@@ -1,8 +1,9 @@
 # ExamSolution
+
 WebBeds Developers Coding Exercise.
 
-En las propiedades del proyecto en opción "Depurar" ponemos: "finalprice?DestinationId=1419&NumberOfNights=2" para establecer valor por defecto.
+In the project properties in option "Debug" we put: "finalprice? DestinationId = 1419 & NumberOfNights = 2" to set default value.
 
-Arrancamos proyecto "PriceCalculatorService". 
+Start "PriceCalculatorService" project.
 
-En la barra del navegador podemos ir cambiando el valor de destinationId (279, 1419) y el número de noches.
+In the browser bar we can change the value of destinationId (279, 1419) and the number of nights.
