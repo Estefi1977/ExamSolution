@@ -27,7 +27,7 @@ namespace PriceCalculatorService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //Registro de las dependencias
+            //Registro de las dependencias.
             services.AddTransient<IFinalPriceService, FinalPriceService>();
             services.AddTransient<IFindBargainClient, FindBargainClient>();
             //
